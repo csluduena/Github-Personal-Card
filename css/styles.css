@@ -1,0 +1,171 @@
+#configForm {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Para asegurarse de que los bordes redondeados se apliquen correctamente */
+}
+
+#containerP {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Toma el 10% del espacio disponible */
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 9; /* Toma el 90% del espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+
+.repo-container {
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
+.profile-details {
+    flex: 9; /* Toma el 90% del espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+.profile-card {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;
+}
+
+.sidebar-button {
+    display: block;
+    width: 94.09px; /* Ancho fijo */
+    height: 35px; /* Alto fijo */
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.profile-card img {
+    width: 28%;
+    height: 45%;
+    border-radius: 7%;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    margin-bottom: 10px;
+}
+
+.profile-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile-card a:hover {
+    text-decoration: underline;
+}
+
+
+
+.profile-card p {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Estilos generales para el contenido de Markdown */
+.markdown-content {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    text-align: center;
+    /* Añade cualquier otro estilo que necesites */
+}
+
+
+/* Estilos para los encabezados */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+    color: #007bff;
+}
+
+/* Estilos para los enlaces */
+.markdown-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.markdown-content a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las listas */
+.markdown-content ul,
+.markdown-content ol {
+    padding-left: 20px;
+}
+
+/* Estilos para las citas */
+.markdown-content blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 10px;
+    color: #777;
+}
+
+/* Estilos para el código */
+.markdown-content pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
